@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp1
 {
@@ -34,8 +34,7 @@ namespace ConsoleApp1
                 uNum = int.Parse(Console.ReadLine());
             }
             if (uNum == gNum) Console.WriteLine("\n\nYES! You won!");
-            Console.SetCursorPosition(bottomX, bottomY);
-            Console.Write(bottomText);
+            Console.ReadKey();
         }
     }
 }
